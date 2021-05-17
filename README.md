@@ -49,7 +49,7 @@ To get started, run `npm install` (if you haven't already), then run
 
 You should see something like this in the output:
 
-```txt
+```js
  FAIL  src/__tests__/Header.test.js
   ● displays the text 'hello from the Header!'
 
@@ -105,7 +105,7 @@ Let's focus on the `Header.test.js` file first. To tell Jest to only run tests
 on this one file, press the **p** key in your terminal (this will let you filter
 out tests by their filename). In the next screen, type in `Header`:
 
-```txt
+```js
 Pattern Mode Usage
  › Press Esc to exit pattern mode.
  › Press Enter to filter by a filenames regex pattern.
